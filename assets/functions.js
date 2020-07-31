@@ -1,6 +1,6 @@
 if (annyang) {
     var commands = {
-      'show tps report': function() {
+      'hola annyang': function() {
         alert("Hola mundo!");
       }
     };
