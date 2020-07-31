@@ -13,3 +13,62 @@ h1, h2, h3, h4, h5, h6 {
 p, li, span{
     font-family: 'Lato', sans-serif;
 }
+
+.content-hero{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(4, 1fr); */
+    grid-template-areas: "hero-container hero-container hero-container hero-container"
+                         /* "hero-container hero-container hero-container hero-container"
+                         "hero-container hero-container hero-container hero-container" */
+                         "content-subsections content-subsections content-subsections content-subsections"
+}
+
+.hero-container{
+    grid-area:hero-container;
+    border:1px solid black;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:"hero-navbar hero-navbar hero-navbar"". hero-container__text .";
+    height: 70vh;
+}
+.hero-navbar{
+    grid-area:hero-navbar;
+}
+.hero-container__text{
+    grid-area:hero-container__text;
+}
+.content-subsections{
+    grid-area: content-subsections;
+    height: 30vh;
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    grid-template-areas:"subsection-one subsection-one subsection-two subsection-two subsection-three";
+}
+.subsection-one{
+    grid-area:subsection-one;
+    border: solid 1px red;
+}
+.subsection-two{
+    grid-area:subsection-two;
+    border: solid 1px green;
+}
+.subsection-three{
+    grid-area:subsection-three;
+    border: solid 1px blue;
+}
+
+.content-login{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr minmax(20rem, 1fr) 1fr;
+    grid-template-rows: 1fr minmax(30rem, 1fr) 1fr;
+    grid-template-areas: "hero-navbar hero-navbar hero-navbar"
+                         ". login-container ."
+                         ". . ."
+}
+
+.login-container{
+    grid-area:login-container;
+}
