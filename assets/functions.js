@@ -1,6 +1,6 @@
 if (annyang) {
     var commands = {
-      'hola annyang': function() {
+      'hola': function() {
         alert("Hola mundo!");
       }
     };
