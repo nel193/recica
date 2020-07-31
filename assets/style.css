@@ -72,3 +72,7 @@ p, li, span{
 .login-container{
     grid-area:login-container;
 }
+
+.card-option{
+    box-shadow: black 5px 5px ;
+}
