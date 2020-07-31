@@ -74,5 +74,8 @@ p, li, span{
 }
 
 .card-option{
+    display:flex;
+    justify-content: center;
+    width: 13rem;
     box-shadow: black 5px 5px ;
 }

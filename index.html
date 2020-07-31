@@ -62,4 +62,27 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
     <script src='assets/functions.js'></script>
 </body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyB_B7KqtVOD2Gwcz0Py7p0aaHMqQK92unE",
+    authDomain: "recica-maedi.firebaseapp.com",
+    databaseURL: "https://recica-maedi.firebaseio.com",
+    projectId: "recica-maedi",
+    storageBucket: "recica-maedi.appspot.com",
+    messagingSenderId: "843699449125",
+    appId: "1:843699449125:web:477da5a03c0a5a01987ecc",
+    measurementId: "G-6MWWR11S3C"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </html>
