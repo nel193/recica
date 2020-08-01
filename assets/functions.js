@@ -1,5 +1,5 @@
 $(function(){
-    $("#hero-navbar").load("navbar.html")
+    $(".hero-navbar").load("navbar.html")
 })()
 if (annyang) {
     var commands = {
