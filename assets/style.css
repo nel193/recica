@@ -76,6 +76,8 @@ p, li, span{
 .card-option{
     display:flex;
     justify-content: center;
+    flex-direction:column;
     width: 13rem;
+    margin:2rem .5em;
     box-shadow: black 5px 5px ;
 }
