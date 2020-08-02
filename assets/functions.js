@@ -17,6 +17,6 @@ if (annyang) {
 
 if(URLhash === "#logged"){
   $("#btnLogin").text("Bienvenidx")
-  $("#btnLogin").text("")
+  $("#btnSignIn").text("")
 }
 
