@@ -1,3 +1,6 @@
+var URLhash = window.location.hash;
+let btnLogin = document.getElementById("btnLogin")
+let btnSignIn = document.getElementById("btnSignIn")
 
 $(function(){
     $(".hero-navbar").load("navbar.html")
@@ -11,8 +14,9 @@ if (annyang) {
     annyang.addCommands(commands);
     annyang.start({ autoRestart: true, continuous: false });
   }
-// function loginButton(){
-//     document.getElementById("login-button")
-//     loginButton.onclick = () => {location.href ='https://ensalud.org/novedades/avanzamos-para-vos/'}
-// }
+
+if(URLhash == "#logged"){
+  btnLogin.innerText="Bienvenidx";
+  btnSignIn.innerText = "";
+}
 
