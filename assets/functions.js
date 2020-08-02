@@ -16,7 +16,7 @@ if (annyang) {
   }
 
 if(URLhash == "#logged"){
-  btnLogin.innerText="Bienvenidx";
-  btnSignIn.innerText = "";
+  btnLogin.innerHtml="Bienvenidx";
+  btnSignIn.innerHtml = "";
 }
 
