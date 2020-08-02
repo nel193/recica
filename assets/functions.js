@@ -15,7 +15,7 @@ if (annyang) {
     annyang.start({ autoRestart: true, continuous: false });
   }
 
-if(URLhash == "#logged"){
+if(URLhash === "#logged"){
   $("#btnLogin").text("Bienvenidx")
   $("#btnLogin").text("")
 }
