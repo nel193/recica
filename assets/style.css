@@ -1,5 +1,18 @@
 *{
-    font-family: ;
+    --main-gray5-color:#475459;
+    --main-gray4-color:#6C7A80;
+    --main-gray3-color:#90A0A6;
+    --main-gray2-color:#D1DCE0;
+    --main-gray1-color:#E4EBED;
+    --main-claro-color:#F7F9FA;
+    
+    --main-complementario-color:#FF94B4;
+
+    --main-oscuro2-color:#036C8C;
+    --main-oscuro1-color:#098AB2;
+    --main-base-color:#12A0CC;
+    --main-claro1-color:#6AD5F7;
+    --main-claro2-color:#94E5FF;
 }
 body{
     margin: 0;
@@ -57,6 +70,10 @@ p, li, span{
 .subsection-three{
     grid-area:subsection-three;
     border: solid 1px blue;
+}
+
+.navbar{
+    background:linear-gradient(var(--main-gray3-color), var(--main-gray2-color));
 }
 
 .content-login{
