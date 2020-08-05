@@ -30,7 +30,6 @@ p, li, span{
 
 .content-hero{
     display: grid;
-    height: 100vh;
     grid-template-columns: repeat(4, 1fr);
     /* grid-template-rows: repeat(4, 1fr); */
     grid-template-areas: "hero-container hero-container hero-container hero-container"
@@ -102,7 +101,6 @@ a.btn.secondary{
 
 .content-login{
     display: grid;
-    height: 100vh;
     grid-template-columns: 1fr minmax(20rem, 1fr) 1fr;
     grid-template-rows: 1fr minmax(30rem, 1fr) 1fr;
     grid-template-areas: "hero-navbar hero-navbar hero-navbar"
@@ -124,4 +122,15 @@ a.btn.secondary{
 }
 .btn-cta{
     background:#;
+}
+
+@media (min-width:768){
+    .content-hero{
+        height: 100vh;
+    }
+
+    .content-login{
+        height: 100vh;
+    }
+
 }
