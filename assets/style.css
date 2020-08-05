@@ -6,7 +6,7 @@
     --main-gray1-color:#E4EBED;
     --main-claro-color:#F7F9FA;
     
-    --main-complementario-color:#FF94B4;
+    --main-comp-color:#FF94B4;
 
     --main-oscuro2-color:#036C8C;
     --main-oscuro1-color:#098AB2;
@@ -73,7 +73,23 @@ p, li, span{
 }
 
 .navbar{
-    background:linear-gradient(var(--main-gray3-color), var(--main-gray2-color));
+    background:linear-gradient(to right, var(--main-gray3-color), var(--main-gray5-color));
+}
+.navbar-brand{
+    font-family:'Anton', sans-serif;
+    font-size:2rem;
+    color:var(--main-base-color);
+}
+.navbar-brand:hover{
+    color:var(--main-base-color);
+}
+
+a.btn.principal{
+    background:var(--main-comp-color);
+}
+a.btn.secondary{
+    background:var(--main-gray1-color);
+    border:1px solid var(--main-comp-color);
 }
 
 .content-login{
