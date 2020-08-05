@@ -80,6 +80,9 @@ p, li, span{
     font-size:2rem;
     color:var(--main-gray1-color);
 }
+.navbar-toggler{
+    color:var(--main-gray1-color);
+}
 .navbar-brand:hover{
     color:var(--main-gray1-color);
 }
