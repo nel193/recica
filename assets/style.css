@@ -73,12 +73,12 @@ p, li, span{
 }
 
 .navbar{
-    background:linear-gradient(to right, var(--main-gray3-color), var(--main-gray5-color));
+    background:linear-gradient(to right, var(--main-gray2-color), var(--main-oscuro2-color));
 }
 .navbar-brand{
     font-family:'Anton', sans-serif;
     font-size:2rem;
-    color:var(--main-base-color);
+    color:var(--main-claro-color);
 }
 .navbar-brand:hover{
     color:var(--main-base-color);
