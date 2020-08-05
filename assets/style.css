@@ -32,12 +32,9 @@ p, li, span{
 
 .content-hero{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    /* grid-template-rows: repeat(4, 1fr); */
-    grid-template-areas: "hero-container hero-container hero-container hero-container"
-                         /* "hero-container hero-container hero-container hero-container"
-                         "hero-container hero-container hero-container hero-container" */
-                         "content-subsections content-subsections content-subsections content-subsections"
+    grid-template-columns: 1fr;
+    grid-template-areas: "hero-container"
+                         "content-subsections"
 }
 
 .hero-container{
@@ -58,10 +55,9 @@ p, li, span{
 }
 .content-subsections{
     grid-area: content-subsections;
-    height: 30vh;
     display: grid;
-    grid-template-columns:repeat(5, 1fr);
-    grid-template-areas:"subsection-one subsection-one subsection-two subsection-two subsection-three";
+    grid-template-columns:1fr;
+    grid-template-areas:"subsection-one""subsection-two""subsection-three";
 }
 .subsection-one{
     grid-area:subsection-one;
@@ -131,7 +127,15 @@ a.btn.secondary{
 
 @media (min-width:768){
     .content-hero{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: "hero-container hero-container hero-container hero-container"
+                             "content-subsections content-subsections content-subsections content-subsections";
         height: 100vh;
+    }
+    .content-subsections{
+        height: 30vh;
+        grid-template-columns:repeat(5, 1fr);
+        grid-template-areas:"subsection-one subsection-one subsection-two subsection-two subsection-three";
     }
 
     .content-login{
