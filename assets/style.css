@@ -65,12 +65,14 @@ p, li, span{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align:center;
 }
 .subsection-two{
     grid-area:subsection-two;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align:center;
 }
 .subsection-three{
     grid-area:subsection-three;
