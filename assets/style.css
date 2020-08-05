@@ -13,6 +13,8 @@
     --main-base-color:#12A0CC;
     --main-claro1-color:#6AD5F7;
     --main-claro2-color:#94E5FF;
+
+    font-family: 'Lato', sans-serif;
 }
 body{
     margin: 0;
@@ -25,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, li, span{
-    font-family: 'Lato', sans-serif;
+    
 }
 
 .content-hero{
