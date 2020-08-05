@@ -45,6 +45,7 @@ p, li, span{
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:"hero-navbar hero-navbar hero-navbar"". hero-container__text .";
     height: 70vh;
+    background-image: url(./images/fondoHero.mov);
 }
 .hero-navbar{
     grid-area:hero-navbar;
