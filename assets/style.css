@@ -103,22 +103,29 @@ h1, h2, h3, h4, h5, h6 {
 a.btn{
     font-size:1.2rem;
     font-weight: 600;
+    border-radius:10px;
 }
 a.btn.principal{
     background:var(--main-comp-color);
     color:var(--main-claro-color);
-    border-bottom:1px solid var(--main-compOsc-color);
+    box-shadow:inset -5px var(--main-compOsc-color);
 
 }
 a.btn.secondary{
     background:var(--main-claro2-color);
-    border-bottom:1px solid var(--main-oscuro2-color);
+    box-shadow:inset -5px var(--main-oscuro2-color);
 }
 a.btn:hover{
-    animation-name:btnHover;
+    animation-name:btnHover;animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+}a.btn.principal:hover{
+    background:var(--main-compOsc-color);
+}
+a.btn.secondary:hover{
+    background:var(--main-oscuro2-color);
 }
 @keyframes btnHover {
-    from {border-bottom:1px} to {border-bottom: 0px}}
+    from {box-shadow:inset -5px} to {box-shadow:inset 0px}}
 
 
 
