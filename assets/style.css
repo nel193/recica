@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 .hero-container__image{
-    background:url(./images/recycleImg.png) no-repeat;
+    background:url(./images/recycleImg2.png) no-repeat;
     background-size:cover;
     grid-area:hero-container__image;
 }
