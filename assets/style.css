@@ -11,7 +11,7 @@
     
     --main-comp-color:#FF94B4;
     --main-compOsc-color:#8C032C;
-    --main-oscuro2-color:#036C8C;
+    --main-oscuro2-color:#036c8c;
     --main-oscuro1-color:#098AB2;
     --main-base-color:#12A0CC;
     --main-claro1-color:#6AD5F7;
@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Anton', sans-serif;
 }
 
+a:hover{text-decoration:none;}
 .content-hero{
     display: grid;
     grid-template-columns: 1fr;
@@ -68,8 +69,9 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-areas:"subsection-one""subsection-two""subsection-three";
 }
 .content-subsections a{
-    background: var(--main-gray4-color);
+    background:rgba(3, 108, 140, .5);
     color:var(--main-claro-color);
+    text-decoration: none;
 }
 .content-subsections a:hover{
     animation-duration:.5s;
@@ -79,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
     animation-fill-mode: forwards;
 }
 @keyframes hoverBox {
-    from{ background: var(--main-gray4-color)} to {background:var(--main-claro1-color)}
+    from{ background:rgba(3, 108, 140, .5);color:var(--main-claro-color)} to {color:var(--main-oscuro2-color);background:var(--main-claro1-color)}
 }
 .subsection-one{
     grid-area:subsection-one;
