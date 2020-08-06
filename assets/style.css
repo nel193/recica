@@ -72,6 +72,8 @@ a:hover{text-decoration:none;}
     background:rgba(3, 108, 140, .5);
     color:var(--main-claro-color);
     text-decoration: none;
+    font-size:2rem;
+    font-weight: bolder;
 }
 .content-subsections a:hover{
     animation-duration:.5s;
@@ -104,7 +106,7 @@ a:hover{text-decoration:none;}
     background:rgba(71, 84, 89, .7);
     height:50%;
     text-align:center;
-    line-height: 10vw;
+    line-height: 5rem;
 }
 
 .navbar{
@@ -206,6 +208,9 @@ a.btn.secondary:hover{
         grid-template-areas: "hero-container hero-container hero-container hero-container"
                              "content-subsections content-subsections content-subsections content-subsections";
         height: 100vh;
+    }
+    .hero-container__text{
+        text-align: end;
     }
     .content-subsections{
         height: 30vh;
