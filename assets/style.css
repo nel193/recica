@@ -75,10 +75,11 @@ h1, h2, h3, h4, h5, h6 {
     color:var(--main-claro-color);
 }
 .content-subsections a:hover{
-    animation-duration:2s;
+    animation-duration:1s;
     animation-timing-function:ease-in-out;
     animation-iteration-count: 1;
     animation-name:hoverBox;
+    animation-fill-mode: forwards;
 }
 @keyframes hoverBox {
     from{ background: var(--main-gray4-color)} to {background:var(--main-claro1-color)}
@@ -134,24 +135,26 @@ a.btn.secondary{
     box-shadow:inset 0 -5px 0 var(--main-gray5-color);
 }
 a.btn.principal:hover{
-    animation-duration:2s;
+    animation-duration:1s;
     animation-timing-function:ease-in-out;
     animation-iteration-count: 1;
     animation-name:btnHoverPrincipal;
+    animation-fill-mode: forwards;
 }
 a.btn.secondary:hover{
-    animation-duration:2s;
+    animation-duration:1s;
     animation-timing-function:ease-in-out;
     animation-iteration-count: 1;
     animation-name:btnHoverSecondary;
+    animation-fill-mode: forwards;
 }
 @keyframes btnHoverPrincipal {
     from {box-shadow:inset 0 -5px 0 var(--main-compOsc-color);background:var(--main-comp-color);padding-top: .5rem;} 
-    to {box-shadow:inset 0px 0px 0px var(--main-compOsc-color);background:var(--main-compOsc-color);padding-top: .8rem;}
+    to {box-shadow:inset 0px 0px 0px var(--main-compOsc-color);background:var(--main-compOsc-color);padding-top: .8rem;padding-bottom: .2rem;}
 }
 @keyframes btnHoverSecondary {
     from {box-shadow:inset 0 -5px 0 var(--main-gray5-color);background:var(--main-claro2-color);padding-top: .5rem;} 
-    to {box-shadow:inset 0px 0px 0px var(--main-gray5-color);background:var(--main-gray5-color);padding-top: .8rem;}
+    to {box-shadow:inset 0px 0px 0px var(--main-gray5-color);background:var(--main-gray5-color);padding-top: .8rem;padding-bottom: .2rem;}
 }
 
 
