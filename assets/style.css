@@ -103,6 +103,8 @@ a:hover{text-decoration:none;}
 .subsection-three a{
     background:rgba(71, 84, 89, .7);
     height:50%;
+    text-align:center;
+    line-height: 10vw;
 }
 
 .navbar{
