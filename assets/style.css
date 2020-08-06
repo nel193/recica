@@ -160,7 +160,7 @@ a.btn.secondary:hover{
 }
 @keyframes btnHoverSecondary {
     from {box-shadow:inset 0 -5px 0 var(--main-gray5-color);background:var(--main-claro2-color);padding-top: .3rem;} 
-    to {box-shadow:inset 0px 0px 0px var(--main-gray5-color);background:var(--main-gray5-color);padding-top: .5rem;padding-bottom: .5rem;}
+    to {color:var(--main-claro-color);box-shadow:inset 0px 0px 0px var(--main-gray5-color);background:var(--main-gray5-color);padding-top: .5rem;padding-bottom: .5rem;}
 }
 
 
