@@ -125,7 +125,7 @@ a.btn.secondary{
     background:#;
 }
 
-@media (min-width:768){
+@media (min-width:768px){
     .content-hero{
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: "hero-container hero-container hero-container hero-container"
