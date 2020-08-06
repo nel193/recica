@@ -192,6 +192,7 @@ a.btn.secondary:hover{
     width: 13rem;
     margin:2rem .5em;
     box-shadow: black 5px 5px ;
+    text-align:center;
 }
 
 @media (min-width:768px){
