@@ -4,7 +4,7 @@
     --main-gray3-color:#90A0A6;
     --main-gray2-color:#D1DCE0;
     --main-gray1-color:#E4EBED;
-    --main-shadows-color:rgba(144, 160, 166, .2);
+    --main-shadows-color:rgba(144, 160, 166, .7);
 
 
     --main-claro-color:#F7F9FA;
@@ -76,6 +76,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .content-subsections a:hover{
     animation:3s ease-in-out 0 1 hoverBox ;
+    animation-duration:2s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: 1;
+    animation-name:hoverBox;
 }
 @keyframes hoverBox {
     from{ background: rgba(255,255,255,.5)} to {background:var(--main-base-color);}
@@ -128,13 +132,19 @@ a.btn.principal{
 }
 a.btn.secondary{
     background:var(--main-claro2-color);
-    box-shadow:inset 0 -5px 0 var(--main-oscuro2-color);
+    box-shadow:inset 0 -5px 0 var(--main-gray5-color);
 }
 a.btn.princial:hover{
-    animation:2s ease-in-out 0 1 btnHoverPrincipal;
+    animation-duration:2s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: 1;
+    animation-name:btnHoverPrincipal;
 }
 a.btn.secondary:hover{
-    animation:2s ease-in-out 0 1 btnHoverSecondary;
+    animation-duration:2s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: 1;
+    animation-name:btnHoverSecondary;
 }
 @keyframes btnHoverPrincipal {
     from {box-shadow:inset 0 -5px 0 var(--main-compOsc-color)} 
@@ -153,7 +163,7 @@ a.btn.secondary:hover{
 .content-login{
     display: grid;
     grid-template-columns: 1fr minmax(20rem, 1fr) 1fr;
-    grid-template-rows: 1fr minmax(30rem, 1fr) 1fr;
+    grid-template-rows: 100px minmax(33rem, 1fr) 1fr;
     grid-template-areas: "hero-navbar hero-navbar hero-navbar"
                          ". login-container ."
                          ". . .";
@@ -164,7 +174,7 @@ a.btn.secondary:hover{
     grid-area:login-container;
     background: var(--main-claro-color);
     border-radius:10px;
-    box-shadow: 5px px var(--main-shadows-color);
+    box-shadow:0px 10px 10px var(--main-shadows-color);
 }
 
 .card-option{
