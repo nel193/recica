@@ -10,7 +10,7 @@
     <title>Document</title>
 </head>
 <body>
-  <div class=''>
+  <div class='content'>
     <section class="content-login">
         <div class='hero-navbar'>
           <nav class="container-fluid px-5 navbar navbar-expand-lg justify-content-between">
@@ -21,22 +21,24 @@
           </nav>
         </div>
         <div class='login-container'>
-          <div class='d-flex justify-content-center'>
-            <h1>Recica</h1>
+          <div class='p-4'>
+            <div class='d-flex justify-content-center'>
+              <h1>Recica</h1>
+            </div>
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <a href='./home.html#logged' class="btn btn-primary" id='login-button'>Subscribir</a>
+            </form>          
           </div>
-          <form>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <a href='./home.html#logged' class="btn btn-primary" id='login-button'>Subscribir</a>
-          </form>          
-        </div>
+          </div>
     </section>
   </div>
 
