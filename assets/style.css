@@ -135,11 +135,14 @@ a.btn.secondary:hover{
     grid-template-rows: 1fr minmax(30rem, 1fr) 1fr;
     grid-template-areas: "hero-navbar hero-navbar hero-navbar"
                          ". login-container ."
-                         ". . ."
+                         ". . .";
+    background: url(./images/fondo2.jpg) no-repeat; 
+    background-size: cover;   
 }
 
 .login-container{
     grid-area:login-container;
+    background: rgba(255,255,255,.5)
 }
 
 .card-option{
