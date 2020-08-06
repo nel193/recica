@@ -34,7 +34,8 @@ p, li, span{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: "hero-container"
-                         "content-subsections"
+                         "content-subsections";
+    background: url(./images/forma.png) no-repeat;                         
 }
 
 .hero-container{
