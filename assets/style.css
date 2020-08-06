@@ -43,6 +43,7 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-rows: 100px;
     grid-template-areas:"hero-navbar hero-navbar hero-navbar"". hero-container__text hero-container__image";
     height: 70vh;
+    background: rgba(255,255,255,.5)
 }
 .hero-navbar{
     grid-area:hero-navbar;
@@ -50,6 +51,10 @@ h1, h2, h3, h4, h5, h6 {
 .hero-container__text{
     grid-area:hero-container__text;
     text-align: center;
+}
+
+.hero-container__text p{
+    font-size: 4rem;
 }
 .hero-container__image{
     background:url(./images/recycleImg2.png) no-repeat;
@@ -99,11 +104,13 @@ a.btn.principal{
     font-size:1.2rem;
     background:var(--main-comp-color);
     color:var(--main-claro-color);
+    font-weight: 600;
+
 }
 a.btn.secondary{
     font-size:1.2rem;
-    background:var(--main-gray4-color);
-    /* border:2px solid var(--main-comp-color); */
+    background:var(--main-claro2-color);
+    font-weight: 600;
 }
 
 .content-login{
@@ -129,6 +136,12 @@ a.btn.secondary{
 }
 
 @media (min-width:768px){
+    h1 {
+        font-size:5.5rem;;
+    }
+    h3 {
+        font-size:3.5rem;;
+    }
     .content-hero{
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: "hero-container hero-container hero-container hero-container"
