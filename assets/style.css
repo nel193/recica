@@ -101,7 +101,8 @@ a:hover{text-decoration:none;}
     grid-area:subsection-three;
 }
 .subsection-three a{
-    background:var(--main-gray5-color);
+    background:rgba(71, 84, 89, .7);
+    height:50%;
 }
 
 .navbar{
