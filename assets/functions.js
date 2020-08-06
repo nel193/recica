@@ -2,9 +2,9 @@ var URLhash = window.location.hash;
 // let btnLogin = document.getElementById("btnLogin")
 // let btnSignIn = document.getElementById("btnSignIn")
 
-// $(function(){
-//     $(".hero-navbar").load("navbar.html")
-// })
+$(function(){
+    $(".hero-navbar").load("navbar.html")
+})
 
 if (annyang) {
     var commands = {
@@ -16,4 +16,8 @@ if (annyang) {
     annyang.start({ autoRestart: true, continuous: false });
   }
 
+if(URLhash === "#logged"){
+  $("#btnLogin").text("Bienvenidx")
+  $("#btnSignIn").text("")
+}
 

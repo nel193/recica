@@ -45,7 +45,6 @@ a:hover{text-decoration:none;}
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100px;
     grid-template-areas:"hero-navbar hero-navbar hero-navbar"". hero-container__text hero-container__image";
-    height: 70vh;
     background: rgba(255,255,255,.5)
 }
 .hero-navbar{
@@ -55,8 +54,6 @@ a:hover{text-decoration:none;}
     grid-area:hero-container__text;
     text-align: center;
 }
-
-.hero-container__text p{font-size: 4rem;}
 .hero-container__image{
     background:url(./images/recycleImg2.png) no-repeat;
     background-size:cover;
@@ -195,7 +192,7 @@ a.btn.secondary:hover{
     text-align:center;
 }
 
-@media (min-width:768px){
+@media (min-width:1024px){
     h1 {
         font-size:5.5rem;;
     }
@@ -203,11 +200,19 @@ a.btn.secondary:hover{
     h2 {
         font-size:3.5rem;;
     }
+    .hero-container__text p{font-size: 4rem;}
     .content-hero{
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: "hero-container hero-container hero-container hero-container"
                              "content-subsections content-subsections content-subsections content-subsections";
         height: 100vh;
+    }
+    .hero-container{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 100px;
+        grid-template-areas:"hero-navbar hero-navbar hero-navbar"". hero-container__text hero-container__image";
+        height: 70vh;
+        background: rgba(255,255,255,.5)
     }
     .hero-container__text{
         text-align: end;
@@ -217,7 +222,15 @@ a.btn.secondary:hover{
         grid-template-columns:repeat(5, 1fr);
         grid-template-areas:"subsection-one subsection-one subsection-two subsection-two subsection-three";
     }
-
+    .content-login{
+        display: grid;
+        grid-template-columns: 1fr minmax(20rem, 1fr) 1fr;
+        grid-template-rows: 100px minmax(33rem, 1fr) 1fr;
+        grid-template-areas: "hero-navbar hero-navbar hero-navbar"
+                             ". login-container ."
+                             ". . .";
+        background: rgba(255,255,255,.5)
+    }
     .content-login{
         height: 100vh;
     }
