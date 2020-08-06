@@ -40,7 +40,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-container{
     grid-area:hero-container;
-    border:1px solid black;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100px;
