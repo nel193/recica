@@ -42,9 +42,9 @@ p, li, span{
     border:1px solid black;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas:"hero-navbar hero-navbar hero-navbar"". hero-container__text .";
+    grid-template-areas:"hero-navbar hero-navbar hero-navbar"". hero-container__text hero-container__image";
     height: 70vh;
-    background-image: url(./images/fondoHero.mov);
+    background-image: url(./images/forma.png) no-repeat;
 }
 .hero-navbar{
     grid-area:hero-navbar;
@@ -52,6 +52,9 @@ p, li, span{
 .hero-container__text{
     grid-area:hero-container__text;
     text-align: center;
+}
+.hero-container__image{
+    background:url(./images/recycleImg.png) no-repeat;
 }
 .content-subsections{
     grid-area: content-subsections;
