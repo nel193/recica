@@ -44,7 +44,7 @@ p, li, span{
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:"hero-navbar hero-navbar hero-navbar"". hero-container__text hero-container__image";
     height: 70vh;
-    background-image: url(./images/forma.png) no-repeat;
+    background: url(./images/forma.png) no-repeat;
 }
 .hero-navbar{
     grid-area:hero-navbar;
@@ -55,6 +55,8 @@ p, li, span{
 }
 .hero-container__image{
     background:url(./images/recycleImg.png) no-repeat;
+    background-size:cover;
+    grid-area:hero-container__image;
 }
 .content-subsections{
     grid-area: content-subsections;
