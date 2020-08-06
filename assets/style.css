@@ -4,6 +4,9 @@
     --main-gray3-color:#90A0A6;
     --main-gray2-color:#D1DCE0;
     --main-gray1-color:#E4EBED;
+    --main-shadows-color:rgba(144, 160, 166, .2);
+
+
     --main-claro-color:#F7F9FA;
     
     --main-comp-color:#FF94B4;
@@ -67,11 +70,11 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns:1fr;
     grid-template-areas:"subsection-one""subsection-two""subsection-three";
 }
-.content-subsections .a{
+.content-subsections a{
     background: rgba(255,255,255,.5);
     color:var(--main-gray4-color);
 }
-.content-subsections .a:hover{
+.content-subsections a:hover{
     animation:3s ease-in-out 0 1 hoverBox ;
 }
 @keyframes hoverBox {
@@ -143,7 +146,10 @@ a.btn.secondary:hover{
 }
 
 
-
+.content{
+    background: url(./images/fondo2.jpg) no-repeat; 
+    background-size: cover;   
+}
 .content-login{
     display: grid;
     grid-template-columns: 1fr minmax(20rem, 1fr) 1fr;
@@ -151,13 +157,14 @@ a.btn.secondary:hover{
     grid-template-areas: "hero-navbar hero-navbar hero-navbar"
                          ". login-container ."
                          ". . .";
-    background: url(./images/fondo2.jpg) no-repeat; 
-    background-size: cover;   
+    background: rgba(255,255,255,.5)
 }
 
 .login-container{
     grid-area:login-container;
-    background: rgba(255,255,255,.5)
+    background: var(--main-claro-color);
+    border-radius:10px;
+    box-shadow: 5px px var(--main-shadows-color);
 }
 
 .card-option{
