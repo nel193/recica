@@ -42,6 +42,7 @@ p, li, span{
     border:1px solid black;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px;
     grid-template-areas:"hero-navbar hero-navbar hero-navbar"". hero-container__text hero-container__image";
     height: 70vh;
     background: url(./images/forma.png) no-repeat;
