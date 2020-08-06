@@ -56,9 +56,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-.hero-container__text p{
-    font-size: 4rem;
-}
+.hero-container__text p{font-size: 4rem;}
 .hero-container__image{
     background:url(./images/recycleImg2.png) no-repeat;
     background-size:cover;
@@ -75,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
     color:var(--main-claro-color);
 }
 .content-subsections a:hover{
-    animation-duration:1s;
+    animation-duration:.5s;
     animation-timing-function:ease-in-out;
     animation-iteration-count: 1;
     animation-name:hoverBox;
@@ -121,7 +119,7 @@ a.btn{
     font-size:1.2rem;
     font-weight: 600;
     border-radius:10px;
-    padding:.5rem .75rem;
+    padding:.3rem .75rem .7rem;
     border:initial;
 }
 a.btn.principal{
@@ -135,26 +133,26 @@ a.btn.secondary{
     box-shadow:inset 0 -5px 0 var(--main-gray5-color);
 }
 a.btn.principal:hover{
-    animation-duration:1s;
+    animation-duration:.5s;
     animation-timing-function:ease-in-out;
     animation-iteration-count: 1;
     animation-name:btnHoverPrincipal;
     animation-fill-mode: forwards;
 }
 a.btn.secondary:hover{
-    animation-duration:1s;
+    animation-duration:.5s;
     animation-timing-function:ease-in-out;
     animation-iteration-count: 1;
     animation-name:btnHoverSecondary;
     animation-fill-mode: forwards;
 }
 @keyframes btnHoverPrincipal {
-    from {box-shadow:inset 0 -5px 0 var(--main-compOsc-color);background:var(--main-comp-color);padding-top: .5rem;} 
-    to {box-shadow:inset 0px 0px 0px var(--main-compOsc-color);background:var(--main-compOsc-color);padding-top: .8rem;padding-bottom: .2rem;}
+    from {box-shadow:inset 0 -5px 0 var(--main-compOsc-color);background:var(--main-comp-color);padding-top: .3rem;} 
+    to {box-shadow:inset 0px 0px 0px var(--main-compOsc-color);background:var(--main-compOsc-color);padding-top: .5rem;padding-bottom: .5rem;}
 }
 @keyframes btnHoverSecondary {
-    from {box-shadow:inset 0 -5px 0 var(--main-gray5-color);background:var(--main-claro2-color);padding-top: .5rem;} 
-    to {box-shadow:inset 0px 0px 0px var(--main-gray5-color);background:var(--main-gray5-color);padding-top: .8rem;padding-bottom: .2rem;}
+    from {box-shadow:inset 0 -5px 0 var(--main-gray5-color);background:var(--main-claro2-color);padding-top: .3rem;} 
+    to {box-shadow:inset 0px 0px 0px var(--main-gray5-color);background:var(--main-gray5-color);padding-top: .5rem;padding-bottom: .5rem;}
 }
 
 
@@ -192,7 +190,8 @@ a.btn.secondary:hover{
     h1 {
         font-size:5.5rem;;
     }
-    h3 {
+    
+    h2 {
         font-size:3.5rem;;
     }
     .content-hero{
