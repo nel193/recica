@@ -35,7 +35,7 @@ p, li, span{
     grid-template-columns: 1fr;
     grid-template-areas: "hero-container"
                          "content-subsections";
-    background: url(./images/forma.png) no-repeat; 
+    background: url(./images/fndo.jpg) no-repeat; 
     background-size: cover;                        
 }
 
