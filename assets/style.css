@@ -200,7 +200,7 @@ a.btn.secondary:hover{
 }
 
 @media (min-width:1024px){
-    h1 {font-size:4.5rem;}
+    h1 {font-size:4rem;}
     h2 {font-size:3.5rem;}
     .hero-container__text p{margin:0 0 0 auto;width:40vw;font-size: 2.5rem;}
     .content-hero{
