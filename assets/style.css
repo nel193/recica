@@ -206,7 +206,7 @@ a.btn.secondary:hover{
 }
 .card-option i {
     font-size: 2rem;
-    background: -webkit-linear-gradient(var(--main-comp-color),var(--main-claro2-color));
+    background: -webkit-linear-gradient(var(--main-claro2-color),var(--main-compOsc-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
       color: tomato;
