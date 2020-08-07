@@ -52,7 +52,7 @@ a:hover{text-decoration:none;}
     display:grid;
     grid-template-columns:30px 1fr 30px;
     grid-template-rows: 100px;
-    grid-template-areas:"hero-navbar hero-navbar hero-navbar"". hero-container__text hero-container__image";
+    grid-template-areas:"hero-navbar hero-navbar hero-navbar"". hero-container__image ."". hero-container__text ." ;
     background: rgba(255,255,255,.5)
 }
 .hero-navbar{
