@@ -64,7 +64,9 @@ a:hover{text-decoration:none;}
 }
 .hero-container__image{
     background:url(./images/recica.png) no-repeat;
-    background-size:cover;
+    background-size:contain;
+    background-position: center;
+    height: 15rem;
     grid-area:hero-container__image;
 }
 .content-subsections{
@@ -215,10 +217,14 @@ a.btn.secondary:hover{
         grid-template-columns: 100px 1fr 400px;
         grid-template-rows: 100px;
         grid-template-areas:"hero-navbar hero-navbar hero-navbar"". hero-container__text hero-container__image";
-        background: rgba(255,255,255,.5)
     }
     .hero-container__text{
         text-align: end;
+    }
+    .hero-container__image{
+        background-size:cover;
+        background-position: initial;
+        height: initial;
     }
     .content-subsections{
         grid-template-columns:repeat(5, 1fr);
