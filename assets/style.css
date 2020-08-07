@@ -204,6 +204,13 @@ a.btn.secondary:hover{
     box-shadow: 0px 10px 10px var(--main-shadows-color);
     text-align:center;
 }
+.card-option i {
+    font-size: 2rem;
+    background: -webkit-linear-gradient(var(--main-comp-color),var(--main-claro2-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      color: tomato;
+ }
 
 @media (min-width:1024px){
     h1 {font-size:4rem;}
