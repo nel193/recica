@@ -1,11 +1,6 @@
 var URLhash = window.location.hash;
 // let btnLogin = document.getElementById("btnLogin")
 // let btnSignIn = document.getElementById("btnSignIn")
-
-$(function(){
-    $(".hero-navbar").load("navbar.html")
-})
-
 if (annyang) {
     var commands = {
       'hola': function() {
