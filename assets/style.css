@@ -177,7 +177,7 @@ a.btn.secondary:hover{
 .content-login{
     display: grid;
     grid-template-columns: 1fr minmax(20rem, 1fr) 1fr;
-    grid-template-rows: 100px minmax(33rem, 1fr) 1fr;
+    grid-template-rows: 100px minmax(15rem, 1fr) 1fr;
     grid-template-areas: "hero-navbar hero-navbar hero-navbar"
                          ". login-container ."
                          ". . .";
@@ -212,7 +212,7 @@ a.btn.secondary:hover{
         height: 100vh;
     }
     .hero-container{
-        grid-template-columns: 300px 1fr 300px;
+        grid-template-columns: 100px 1fr 400px;
         grid-template-rows: 100px;
         grid-template-areas:"hero-navbar hero-navbar hero-navbar"". hero-container__text hero-container__image";
         background: rgba(255,255,255,.5)
@@ -227,7 +227,7 @@ a.btn.secondary:hover{
     .content-login{
         display: grid;
         grid-template-columns: 1fr minmax(20rem, 1fr) 1fr;
-        grid-template-rows: 100px minmax(33rem, 1fr) 1fr;
+        grid-template-rows: 100px minmax(28rem, 1fr) 1fr;
         grid-template-areas: "hero-navbar hero-navbar hero-navbar"
                              ". login-container ."
                              ". . .";
