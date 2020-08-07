@@ -200,7 +200,8 @@ a.btn.secondary:hover{
     flex-direction:column;
     width: 13rem;
     margin:2rem .5em;
-    box-shadow: black 5px 5px ;
+    padding:1rem;
+    box-shadow: 0px 10px 10px var(--main-shadows-color);
     text-align:center;
 }
 
@@ -239,9 +240,9 @@ a.btn.secondary:hover{
                              ". login-container ."
                              ". . .";
     }
-    .content-login{
+    /* .content-login{
         height: 100vh;
-    }
+    } */
 
 }
 
