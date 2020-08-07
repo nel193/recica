@@ -249,4 +249,8 @@ a.btn.secondary:hover{
     h1 {
         font-size:5.5rem;;
     }
+    .hero-container{
+    grid-template-columns: 100px 1fr 600px;
+    min-height: 40rem;    
+}
 }
