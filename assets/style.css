@@ -200,13 +200,8 @@ a.btn.secondary:hover{
 }
 
 @media (min-width:1024px){
-    h1 {
-        font-size:5.5rem;;
-    }
-    
-    h2 {
-        font-size:3.5rem;;
-    }
+    h1 {font-size:4.5rem;}
+    h2 {font-size:3.5rem;}
     .hero-container__text p{font-size: 4rem;}
     .content-hero{
         grid-template-columns: repeat(4, 1fr);
@@ -242,4 +237,10 @@ a.btn.secondary:hover{
         height: 100vh;
     }
 
+}
+
+@media (min-width:1400px){
+    h1 {
+        font-size:5.5rem;;
+    }
 }
