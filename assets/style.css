@@ -213,14 +213,12 @@ a.btn.secondary:hover{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 100px;
         grid-template-areas:"hero-navbar hero-navbar hero-navbar"". hero-container__text hero-container__image";
-        height: 70vh;
         background: rgba(255,255,255,.5)
     }
     .hero-container__text{
         text-align: end;
     }
     .content-subsections{
-        height: 30vh;
         grid-template-columns:repeat(5, 1fr);
         grid-template-areas:"subsection-one subsection-one subsection-two subsection-two subsection-three";
     }
