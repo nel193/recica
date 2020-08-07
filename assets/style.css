@@ -69,11 +69,12 @@ a:hover{text-decoration:none;}
 .content-subsections{
     grid-area: content-subsections;
     display: grid;
+    grid-gap:10px;
     grid-template-columns:1fr;
     grid-template-areas:"subsection-one""subsection-two""subsection-three";
 }
 .content-subsections a{
-    background:rgba(3, 108, 140, .5);
+    background:rgba(3, 108, 140, .8);
     color:var(--main-claro-color);
     text-decoration: none;
     font-size:2rem;
@@ -107,7 +108,7 @@ a:hover{text-decoration:none;}
     grid-area:subsection-three;
 }
 .subsection-three a{
-    background:rgba(71, 84, 89, .7);
+    background:rgba(93, 123, 134, 0.9);
     height:50%;
     text-align:center;
 }
