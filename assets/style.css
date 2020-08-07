@@ -44,7 +44,8 @@ a:hover{text-decoration:none;}
     background: url(./images/fondo2.jpg) no-repeat; 
     background-size: cover;
     height: 100vh;
-    min-height: 50rem;                    
+    min-height: 50rem;   
+    background-position: bottom;                 
 }
 
 .hero-container{
