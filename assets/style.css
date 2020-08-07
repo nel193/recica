@@ -28,6 +28,11 @@ body{
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Anton', sans-serif;
 }
+.hero-container__text p{
+    font-size: calc(1rem + 2vw);
+    width: 40vw;
+    margin: 0 auto
+}
 
 a:hover{text-decoration:none;}
 .content-hero{
