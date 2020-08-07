@@ -67,7 +67,7 @@ a:hover{text-decoration:none;}
     background:url(./images/recica.png) no-repeat;
     background-size:contain;
     background-position: center;
-    height: 15rem;
+    height: 40vw;
     grid-area:hero-container__image;
 }
 .content-subsections{
